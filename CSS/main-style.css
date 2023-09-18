@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+
+#banner .item
+{
+	min-height:600px;
+	background:#EFEFEF;
+}
+
+#banner .item p{line-height:2rem; font-size: 1.2rem; color: black}
+
+h1{font-weight: 200; font-size:3rem; margin-top: 0; margin-bottom: 1rem}
+h4{font-weight: 400; font-size:2rem;margin-top: 0;margin-bottom: 1rem}
+
+footer i{margin: 0 10px}
+footer a{color:#eee; display:block}
+
+footer p.icon{ display: flex}
+footer .circle-icon{
+	display:flex; align-items: center; justify-content: center;
+	border-radius: 50%; 
+	width:50px; 
+	height: 50px; 
+	margin: 0; 
+	padding:0; 
+	text-align: center; 
+	line-height:50px;
+	background: #333
+}
+
+footer .circle-icon:hover{background: #ddd; color:#000}
+form.form-inline{display:flex; justify-content: flex-end}
+.input-form{width:50%; background: #000;color:#eee; border:1px solid #666; padding-left:10px}
+
+.form-control{width:100%; padding:10px;border:1px solid #ddd; border-radius: 5px; margin-top:5px}
+
+
+
+.accordion {
+  background-color: #ccc;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.card-service
+{
+	box-shadow: 1px 1px 10px 2px #ddd;
+	height: 200px;
+	padding-top:50px
+	
+}
+
+.card-service:hover
+{
+	background: #31984C;
+	color:white
+}
+.card-service h2
+{
+	color:black;
+}
+.card-service:hover >h2
+{
+	color:white;
+}
+
+
+
+
+
